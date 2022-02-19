@@ -1,3 +1,25 @@
+window.sr = ScrollReveal();
+    sr.reveal('.navbar', {
+        duration: 600,
+        origin: 'bottom',
+        distance: '-100px'
+    });
+
+    sr.reveal('.scroll-banner', {
+        duration: 1000,
+        origin: 'bottom',
+        distance: '-100px'
+    });
+
+    sr.reveal('.scroll-right', {
+        duration: 1000,
+        origin: 'right',
+        distance: '-200px'
+    });
+
+    
+
+
 // set up text to print, each item in array is new line
 var aText = new Array(
     "Hello there!", 
@@ -36,3 +58,5 @@ var aText = new Array(
     
     
     typewriter();
+
+    
