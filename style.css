@@ -1,0 +1,17 @@
+
+.navbar-nav{
+    align-items: center;
+}
+.lead{ 
+    font-size: 1.3125rem!important;
+    font-weight: 300!important;
+    /*En el futuro esto deberia cambiarlo con Sass porque segun stackoverFlow no es ideal*/
+}
+#toggler {
+    color: #F8F9F9;
+    border-color: #F8F9F9;
+}
+.fi{
+    font-size: 1rem;
+}
+
